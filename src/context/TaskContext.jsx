@@ -1,4 +1,5 @@
 import React, {useState, createContext} from 'react';
+import {v4 as uuid} from 'uuid';
 
 export const TaskContext = createContext();
 
@@ -9,7 +10,7 @@ const TaskContextProvider = (props) => {
         {id: 2, duty: 'Second example'},
         {id: 3, duty: 'Third example'},
     ]);
-    
+
     return(
         <TaskContext.Provider value={{
             tasks
