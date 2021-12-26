@@ -1,14 +1,13 @@
 import React, {useState, createContext} from 'react';
-import {v4 as uuid} from 'uuid';
 
 export const TaskContext = createContext();
 
 const TaskContextProvider = (props) => {
 
     const [tasks, setTasks] = useState([
-        {id: 1, duty: 'First example'},
-        {id: 2, duty: 'Second example'},
-        {id: 3, duty: 'Third example'},
+        {id: 1, duty: 'First taks'},
+        {id: 2, duty: 'Second taks'},
+        {id: 3, duty: 'Third taks'},
     ]);
 
     return(

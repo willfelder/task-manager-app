@@ -1,0 +1,33 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2e35;
+    height: 10vh;
+}
+
+.header_container-logo {
+    margin-left: 40px;
+
+    h1 {
+        color: #f8f8f8;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Anton', sans-serif;
+    }
+}
+
+.header_container-content {
+    margin-right: 40px;
+
+    h3 {
+        color: #f8f8f8;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,34 @@
+.homeContent_container {
+    display: flex;
+    align-items: center;
+    background-color: #12181b;
+    height: 83vh;
+}
+
+.homeContent_container-taskbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    background-color: #2a2e35;
+    width: 35%;
+    min-width: 450px;
+    height: 550px;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    h1 {
+        color: #f8f8f8;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.homeContent_container-taskbox_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
