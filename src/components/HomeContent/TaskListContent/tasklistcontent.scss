@@ -1,0 +1,22 @@
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-bottom: 5px;
+}
+
+.list-items span {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-items_box {
+    display: flex;
+}
+
+.list-items_delete,
+.list-items_edit {
+    cursor: pointer;
+    margin-right: 20px;
+    color: rgb(150, 150, 150);
+}

@@ -1,5 +1,6 @@
 .homeContent_container {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     background-color: #12181b;
     height: 83vh;
@@ -12,23 +13,25 @@
     align-items: center;
     margin-left: 40px;
     background-color: #2a2e35;
-    width: 35%;
+    width: 40%;
     min-width: 450px;
     height: 550px;
     box-sizing: border-box;
     border-radius: 3px;
+}
 
-    h1 {
+h1 {
         color: #f8f8f8;
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
         margin-bottom: 30px;
-    }
 }
 
 .homeContent_container-taskbox_main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: space-between;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
