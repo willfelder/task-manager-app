@@ -9,11 +9,15 @@ const TaskList = () => {
 
     return(
         <div>
-            <ul className='list'>
-                {tasks.map(value => {
-                    return <TaskListContent duty={value} key={value.id} />
-                })}
-            </ul>
+            {tasks.length ? (
+                <ul className='list'>
+                    {tasks.map(value => {
+                        return <TaskListContent duty={value} key={value.id} />
+                    })}
+                </ul>
+            ) : (
+                <div className='no-task'>No Tasks</div>
+            )}
         </div>
     )
 }
