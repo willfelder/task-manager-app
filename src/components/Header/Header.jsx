@@ -6,10 +6,10 @@ const Header = () => {
     return(
         <div className='header_container'>
             <div className='header_container-logo'>
-                <h1>Tasck</h1>
+                <h1 data-testid='headerLogo'>Tasck</h1>
             </div>
             <div className='header_container-content'>
-                <h3>A Task Manager to organize your duties</h3>
+                <h3 data-testid='headerSlogan'>A Task Manager to organize your duties</h3>
             </div>
         </div>
     )

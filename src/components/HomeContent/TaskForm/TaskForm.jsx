@@ -47,7 +47,8 @@ const TaskForm = () => {
                             {editItem ? 'Edit Task' : 'Add Task'}
                 </button>
                 <button className='form_container-buttons_delete btn'
-                        onClick={clearTask}>Clear All</button>
+                        onClick={clearTask}
+                        data-testid='clearBtn'>Clear All</button>
             </div>
 
         </form>
