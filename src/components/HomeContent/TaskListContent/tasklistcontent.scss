@@ -26,3 +26,10 @@
 .list-items_edit:hover {
     color: rgb(110, 110, 110);
 }
+
+@media screen and (max-width: 500px) {
+    .list-items {
+        margin: 20px 10px;
+        padding-bottom: 5px;
+    }
+}

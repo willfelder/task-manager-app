@@ -43,3 +43,56 @@
     padding: 30px 40px;
     box-shadow: rgba(110, 114, 119, 0.2) 0px 8px 24px;
 }
+
+@media screen and (max-width: 960px) {
+
+    .homeContent_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homeContent_container-taskbox {
+        margin: 0px 50px;
+        width: 100%;
+        min-width: 400px;
+        height: 550px;
+    
+        h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .homeContent_container-calendar {
+        margin: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .homeContent_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homeContent_container-taskbox {
+        margin: 0px 50px;
+        width: 100%;
+        min-width: 400px;
+        height: 550px;
+    
+        h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .homeContent_container-calendar {
+        margin: 20px 50px;
+    }
+    
+}

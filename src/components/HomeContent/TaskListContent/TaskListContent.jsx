@@ -14,7 +14,7 @@ const TaskListContent = ({duty}) => {
             <div className='list-items_box'>
                 <div className='list-items_delete'
                      onClick={() => removeTask(duty.id)}>
-                         <DeleteIcon />
+                    <DeleteIcon />
                 </div>
                 <div className='list-items_edit'
                      onClick={() => findItem(duty.id)}>

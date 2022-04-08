@@ -6,9 +6,7 @@ export const TaskContext = createContext();
 const TaskContextProvider = (props) => {
 
     const initialState = JSON.parse(localStorage.getItem('tasks')) || [];
-
     const [tasks, setTasks] = useState(initialState);
-
     const [editItem, setEditItem] = useState(null);
 
     useEffect(() => {
@@ -39,14 +37,15 @@ const TaskContextProvider = (props) => {
     }
 
     return(
-        <TaskContext.Provider value={{
-            tasks,
-            clearTask,
-            removeTask,
-            addTask, 
-            findItem,
-            editTask,
-            editItem
+        <TaskContext.Provider 
+            value={{
+                tasks,
+                clearTask,
+                removeTask,
+                addTask, 
+                findItem,
+                editTask,
+                editItem
         }}>
             {props.children}
         </TaskContext.Provider>
