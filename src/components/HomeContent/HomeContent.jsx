@@ -14,6 +14,7 @@ const HomeContent = () => {
     }
 
     return(
+        
             <div className='homeContent_container'>
                 <div className='homeContent_container-taskbox'>
                     <h1>Your Tasks</h1>

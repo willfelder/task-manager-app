@@ -5,6 +5,7 @@ import {TaskContext} from '../../../context/TaskContext';
 const TaskForm = () => {
 
     const {clearTask, addTask, editItem, editTask} = useContext(TaskContext);
+
     const [duty, setDuty] = useState('');
 
     const handleSubmit = (e) => {
@@ -31,6 +32,7 @@ const TaskForm = () => {
     }, [editItem])
 
     return(
+        
         <form className='form_container'
               onSubmit={handleSubmit}>
                   

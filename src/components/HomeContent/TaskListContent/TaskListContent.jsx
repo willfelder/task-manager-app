@@ -9,6 +9,7 @@ const TaskListContent = ({duty}) => {
     const {removeTask, findItem} = useContext(TaskContext);
 
     return(
+        
         <li className='list-items'>
             <span>{duty.duty}</span>
             <div className='list-items_box'>

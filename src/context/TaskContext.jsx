@@ -37,6 +37,7 @@ const TaskContextProvider = (props) => {
     }
 
     return(
+        
         <TaskContext.Provider 
             value={{
                 tasks,
